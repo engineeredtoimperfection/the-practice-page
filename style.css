@@ -87,7 +87,7 @@ body {
     opacity: 0;
 }
 
-.invisible:hover {
+.faintly-visible {
     opacity: 0.25;
 }
 
