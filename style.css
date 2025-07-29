@@ -57,6 +57,13 @@ body {
     transform: scale(1.15)
 }
 
+.total-hours-container {
+    align-self: center;
+    text-align: center;
+    border: 2px solid #db4a3d;
+    padding: 20px;
+}
+
 .guitar-list {
     display: flex;
     flex-wrap: wrap;

@@ -17,10 +17,12 @@ fetch('./config.json')
 
         const play = document.getElementById('play-activity')
         const practice = document.getElementById('practice-activity')
+        const totalHours = document.getElementById('total-hours')
         const lastUpdated = document.getElementById('last-updated')
 
         play.textContent = config.play_activity
         practice.textContent = config.practice_activity
+        totalHours.textContent = config.total_hours
         lastUpdated.textContent = `Last updated: ${config.last_updated}`
 
     })
