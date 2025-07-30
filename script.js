@@ -29,3 +29,13 @@ fetch('./config.json')
     .catch(error => {
         console.error('Error fetching config:', error)
     })
+
+alert(
+
+`1. Pick 🎯 whatever feels good to you.
+
+2. Time ⏱️ your practice so you can track it.
+
+3. Have fun! 🔥`
+
+);
