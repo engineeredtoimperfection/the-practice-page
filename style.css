@@ -75,8 +75,6 @@ body {
 
     list-style: none;
     font-size: 20px;
-
-    text-decoration: underline;
 }
 
 .guitar-list li {
@@ -91,6 +89,7 @@ body {
 
 .guitar-list li a {
     color: #db4a3d;
+    text-decoration: none;
 }
 
 .progress-label {
