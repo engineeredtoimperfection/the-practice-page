@@ -39,3 +39,7 @@ function toggleLevelIndicator() {
         levelIndicatorClasses.add("faintly-visible")
     }
 }
+
+function openGuitarLogs() {
+    window.open('https://advitiay-anand.notion.site/Logs-22251c1d0d9c806e9b04ec41c2d7ee2e')
+}
