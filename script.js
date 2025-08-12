@@ -1,5 +1,7 @@
 loadConfig()
 
+detectPersonalMode()
+
 showWelcomeMessage()
 
 function loadConfig() {
@@ -21,6 +23,18 @@ function loadConfig() {
     .catch(error => {
         console.error('Error fetching config:', error)
     })
+}
+
+function detectPersonalMode() {
+    if (window.location.hash === '#me') {
+        enablePersonalMode()
+    }
+}
+
+function enablePersonalMode() {
+    
+    // Use personal links instead of public ones
+    console.log('Personal Mode')
 }
 
 function showWelcomeMessage() {
