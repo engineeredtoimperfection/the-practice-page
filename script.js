@@ -1,7 +1,5 @@
 loadConfig()
 
-detectPersonalMode()
-
 showWelcomeMessage()
 
 function loadConfig() {
@@ -41,6 +39,15 @@ function enablePersonalMode(links) {
     console.log('Personal Mode')
 
     for (let key in links) {
+
+        // Exceptional case: logs don't have a corresponding anchor element
+        if (key === 'logs') {
+            document.getElementById('total-hours-container').addEventListener('click', () => {
+                openGuitarLogs()
+            })
+            continue
+        }
+
         document.getElementById(`${key}-link`).href = links[key]
     }
 }
@@ -63,5 +70,5 @@ function toggleLevelIndicator() {
 }
 
 function openGuitarLogs() {
-    window.open('https://advitiay-anand.notion.site/Logs-22251c1d0d9c806e9b04ec41c2d7ee2e')
+    window.open('https://www.notion.so/advitiay-anand/Logs-22251c1d0d9c806e9b04ec41c2d7ee2e')
 }
