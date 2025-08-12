@@ -1,17 +1,9 @@
-function toggleLevelIndicator() {
+loadConfig()
 
-    let levelIndicatorClasses = document.getElementById("level-indicator").classList
+showWelcomeMessage()
 
-    let isVisible = levelIndicatorClasses.contains("faintly-visible")
-
-    if (isVisible) {
-        levelIndicatorClasses.remove("faintly-visible")
-    } else {
-        levelIndicatorClasses.add("faintly-visible")
-    }
-}
-
-fetch('./config.json')
+function loadConfig() {
+    fetch('./config.json')
     .then(res => res.json())
     .then(config => {
 
@@ -29,13 +21,21 @@ fetch('./config.json')
     .catch(error => {
         console.error('Error fetching config:', error)
     })
+}
 
-alert(
+function showWelcomeMessage() {
+    alert(`1. Pick 🎯 whatever feels good to you.\n\n2. Time ⏱️ your practice so you can track it.\n\n3. Have fun! 🔥`);
+}
 
-`1. Pick 🎯 whatever feels good to you.
+function toggleLevelIndicator() {
 
-2. Time ⏱️ your practice so you can track it.
+    let levelIndicatorClasses = document.getElementById("level-indicator").classList
 
-3. Have fun! 🔥`
+    let isVisible = levelIndicatorClasses.contains("faintly-visible")
 
-);
+    if (isVisible) {
+        levelIndicatorClasses.remove("faintly-visible")
+    } else {
+        levelIndicatorClasses.add("faintly-visible")
+    }
+}
