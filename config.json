@@ -1,22 +1,37 @@
 {
-    "log": {
-        "play_activity": "🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🧊🔥🧊🔥🔥🔥🔥🔥🔥🧊🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🧊🔥🔥🧊🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥",
-        "practice_activity": "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜🔥🔥🧊🧊🧊🧊🔥🧊🔥🔥🧊🔥🔥🧊🔥🧊🧊🧊🧊🧊👍🔥🧊🧊👍👍👍🧊🧊👍🔥👍👍🧊🧊👍👍🔥🧊🧊🔥👍🧊🧊🧊",
-        "total_hours": "30.5",
-        "last_updated": "August 19 2025"
+    "guitar": {
+        "log": {
+            "play_activity": "🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🧊🔥🧊🔥🔥🔥🔥🔥🔥🧊🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🧊🔥🔥🧊🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥",
+            "practice_activity": "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜🔥🔥🧊🧊🧊🧊🔥🧊🔥🔥🧊🔥🔥🧊🔥🧊🧊🧊🧊🧊👍🔥🧊🧊👍👍👍🧊🧊👍🔥👍👍🧊🧊👍👍🔥🧊🧊🔥👍🧊🧊🧊",
+            "total_hours": "30.5",
+            "last_updated": "August 19 2025"
+        },
+        "links": {
+            "exercises": "https://www.notion.so/advitiay-anand/Exercises-20e51c1d0d9c80db9b94d8b8f1b97555",
+            "strumming": "https://www.notion.so/advitiay-anand/Strumming-Patterns-20c51c1d0d9c802d9a85fc6e712c02ea",
+            "progressions": "https://www.notion.so/advitiay-anand/Chord-Progressions-20951c1d0d9c80c8bd19d9568d3c7e08",
+            "chords": "https://www.notion.so/advitiay-anand/edfa1c2c75d54bc8a2ef02438a038f11?v=13251c1d0d9c80898d50000c8cf048c5",
+            "riffs": "https://www.notion.so/advitiay-anand/Riffs-16651c1d0d9c809d8246e1cf23ac2878",
+            "scales": "https://www.notion.so/advitiay-anand/15b51c1d0d9c80cfa16ef49464edde76?v=15b51c1d0d9c81769cce000c1f3abb22",
+            "fretboard": "https://www.notion.so/advitiay-anand/Fretboard-Memorization-24d51c1d0d9c806ab7f9fe2d71746c65",
+            "repertoire": "https://www.notion.so/advitiay-anand/Repertoire-16651c1d0d9c8000b9e4cf64fa81d0bf",
+            "improvisation": "https://www.notion.so/advitiay-anand/Improvisation-20c51c1d0d9c803ba0cdd570cf9cccbe",
+            "fingerstyle": "https://www.notion.so/advitiay-anand/Fingerstyle-24d51c1d0d9c8085af17eebec82608ea",
+            "justin-guitar": "https://www.notion.so/advitiay-anand/Justin-Guitar-21d51c1d0d9c80fa8441f39ad9ef1868",
+            "logs": "https://www.notion.so/advitiay-anand/Logs-22251c1d0d9c806e9b04ec41c2d7ee2e"
+        }
     },
-    "links": {
-        "exercises": "https://www.notion.so/advitiay-anand/Exercises-20e51c1d0d9c80db9b94d8b8f1b97555",
-        "strumming": "https://www.notion.so/advitiay-anand/Strumming-Patterns-20c51c1d0d9c802d9a85fc6e712c02ea",
-        "progressions": "https://www.notion.so/advitiay-anand/Chord-Progressions-20951c1d0d9c80c8bd19d9568d3c7e08",
-        "chords": "https://www.notion.so/advitiay-anand/edfa1c2c75d54bc8a2ef02438a038f11?v=13251c1d0d9c80898d50000c8cf048c5",
-        "riffs": "https://www.notion.so/advitiay-anand/Riffs-16651c1d0d9c809d8246e1cf23ac2878",
-        "scales": "https://www.notion.so/advitiay-anand/15b51c1d0d9c80cfa16ef49464edde76?v=15b51c1d0d9c81769cce000c1f3abb22",
-        "fretboard": "https://www.notion.so/advitiay-anand/Fretboard-Memorization-24d51c1d0d9c806ab7f9fe2d71746c65",
-        "repertoire": "https://www.notion.so/advitiay-anand/Repertoire-16651c1d0d9c8000b9e4cf64fa81d0bf",
-        "improvisation": "https://www.notion.so/advitiay-anand/Improvisation-20c51c1d0d9c803ba0cdd570cf9cccbe",
-        "fingerstyle": "https://www.notion.so/advitiay-anand/Fingerstyle-24d51c1d0d9c8085af17eebec82608ea",
-        "justin-guitar": "https://www.notion.so/advitiay-anand/Justin-Guitar-21d51c1d0d9c80fa8441f39ad9ef1868",
-        "logs": "https://www.notion.so/advitiay-anand/Logs-22251c1d0d9c806e9b04ec41c2d7ee2e"
+    "vocals": {
+        "log": {
+            "play_activity": "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜🔥🔥🧊🔥🧊🔥🧊🔥🔥🧊🧊🔥🔥🔥🧊🔥🔥🧊🔥🔥🔥🔥🔥🔥🧊🧊🧊🧊🔥🧊🔥🔥🧊🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🧊🧊🔥",
+            "practice_activity": "🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🧊🔥🧊🔥🧊🔥🔥🔥🔥🧊🔥🔥🧊🔥🔥🔥🔥🔥🧊🔥🧊🔥🧊🧊🔥⬜🧊🧊🧊🧊🧊🧊🧊🔥🧊🧊🔥🧊🧊🧊🧊🧊🧊🔥🔥🔥🧊⬜🧊🧊🧊🧊🧊🧊🧊🧊👍🧊🧊🧊🧊🧊🔥🧊🧊🧊🧊🧊🧊",
+            "last_updated": "August 19 2025"
+        }
+    },
+    "musicianship": {
+        "log": {
+            "practice_activity": "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜",
+            "last_updated": "August 19 2025"
+        }
     }
 }

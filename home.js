@@ -10,9 +10,9 @@ function setLinks(isPersonalModeOn) {
     const vocalsTile = document.getElementById('vocals-tile')
     const musicianshipTile = document.getElementById('musicianship-tile')
 
-    const guitarLink = isPersonalModeOn ? 'https://the-practice-page.vercel.app/#me' : 'https://the-practice-page.vercel.app'
-    const vocalsLink = isPersonalModeOn ? './vocals.html#me' : './vocals.html'
-    const musicianshipLink = isPersonalModeOn ? './musicianship.html#me' : './musicianship.html'
+    const guitarLink = isPersonalModeOn ? './pages/guitar/guitar.html#me' : './pages/guitar/guitar.html'
+    const vocalsLink = isPersonalModeOn ? './pages/vocals/vocals.html#me' : './pages/vocals/vocals.html'
+    const musicianshipLink = isPersonalModeOn ? './pages/musicianship/musicianship.html#me' : './pages/musicianship/musicianship.html'
     
     guitarTile.addEventListener('click', () => {
         window.open(guitarLink)

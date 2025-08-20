@@ -1,54 +1,36 @@
 <!DOCTYPE html>
-
 <html lang="en">
+
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Guitar</title>
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./home.css">
+        <title>Music</title>
     </head>
+
     <body>
-        <div class="guitar-content">
-            <div class="guitar-header">
-                <ul class="guitar-list">
-                    <li><a id="exercises-link" href="https://advitiay-anand.notion.site/Exercises-20e51c1d0d9c80db9b94d8b8f1b97555" target="_blank noreferrer">Exercises</a></li>
-                    <li><a id="strumming-link" href="https://advitiay-anand.notion.site/Strumming-Patterns-20c51c1d0d9c802d9a85fc6e712c02ea" target="_blank noreferrer">Strumming Patterns</a></li>
-                    <li><a id="progressions-link" href="https://advitiay-anand.notion.site/Chord-Progressions-20951c1d0d9c80c8bd19d9568d3c7e08" target="_blank noreferrer">Chord Progressions</a></li>
-                    <li><a id="chords-link" href="https://advitiay-anand.notion.site/edfa1c2c75d54bc8a2ef02438a038f11?v=15b51c1d0d9c80598413000cca51e6f5" target="_blank noreferrer">Chords</a></li>
-                    <li><a id="riffs-link" href="https://advitiay-anand.notion.site/Riffs-16651c1d0d9c809d8246e1cf23ac2878" target="_blank noreferrer">Riffs</a></li>
-                    <li><a id="scales-link" href="https://advitiay-anand.notion.site/15b51c1d0d9c80cfa16ef49464edde76?v=15b51c1d0d9c81749ada000ca266685e" target="_blank noreferrer">Scales</a></li>
-                    <li><a id="fretboard-link" href="https://advitiay-anand.notion.site/Fretboard-Memorization-24d51c1d0d9c806ab7f9fe2d71746c65" target="_blank noreferrer">Fretboard Memorization</a></li>
-                    <li><a id="repertoire-link" href="https://advitiay-anand.notion.site/1cb51c1d0d9c80b7befdc7463886faaa?v=20951c1d0d9c805c82ee000c83201c17" target="_blank noreferrer">Repertoire</a></li>
-                    <li><a id="improvisation-link" href="https://advitiay-anand.notion.site/Improvisation-20c51c1d0d9c803ba0cdd570cf9cccbe" target="_blank noreferrer">Improvisation</a></li>
-                    <li><a id="fingerstyle-link" href="https://advitiay-anand.notion.site/Fingerstyle-24d51c1d0d9c8085af17eebec82608ea" target="_blank noreferrer">Fingerstyle</a></li>
-                    <li><a id="justin-guitar-link" href="https://advitiay-anand.notion.site/Justin-Guitar-21d51c1d0d9c80fa8441f39ad9ef1868" target="_blank noreferrer">Justin Guitar</a></li>
-                </ul>
-            </div>
-            <div class="guitar-main">
-                <p class="progress-label" onmouseover="toggleLevelIndicator()" onmouseout="toggleLevelIndicator()"><span class="bold">Overall Progress</span><br><span id="level-indicator" class="invisible">(Beginner Level)</span><br><progress value="10" max="22">45%</progress></p>
-                <div class="activity-container">
-                    <div>Noodling: <span id="play-activity" class="guitar-activity-emojis"></span></div>
-                    <div id="total-hours-container" class="total-hours-container">
-                        <div id="total-hours" class="bold"></div>
-                        <div class="small">Hours of Deliberate Practice</div>
-                    </div>
-                    <div>Focused Practice: <span id="practice-activity" class="guitar-activity-emojis"></span></div>
+        <div class="grid">
+            <div id="guitar-tile" class="grid-item">
+                <div class="item-image">
+                    <img src="./assets/guitar.png">
                 </div>
-                <p id="last-updated" class="last-updated small">Last updated: </p>
+                <div class="item-text">Guitar</div>
             </div>
-            <div class="guitar-footer">
-                <div class="social-links-container">
-                    <ul class="social-links-list">
-                        <li><a href="https://youtube.com/playlist?list=PL5f5OznYpN3wstzohVgVgB3U8Bs2oxqVr&si=tsCHWhA3qH1pNui8" target="_blank" rel="noreferrer noopener"><img class="icon" src="./icons/youtube.svg" alt="YouTube Icon"></a></li>
-                        <li><a href="https://advitiay-anand.notion.site/Guitar-16a88d17ab67492db46209a8a03287ed" target="_blank" rel="noreferrer noopener"><img class="icon" src="./icons/notion.svg" alt="Notion Icon"></a></li>
-                        <li><a href="https://www.instagram.com/namanregi/" target="_blank" rel="noreferrer noopener"><img class="icon" src="./icons/instagram.svg" alt="Instagram Icon"></a></li>
-                    </ul>
+            <div id="vocals-tile" class="grid-item">
+                <div class="item-image">
+                    <img src="./assets/mic.png">
                 </div>
-                <hr>
-                <p class="touchstone"><span class="bold">Pick up and strum!</span></p>
+                <div class="item-text">Vocals</div>
+            </div>
+            <div id="musicianship-tile" class="grid-item">
+                <div class="item-image">
+                    <img src="./assets/notes.png">
+                </div>
+                <div class="item-text">Musicianship</div>
             </div>
         </div>
 
-        <script src="./script.js"></script>
+        <script src="./home.js"></script>
     </body>
+
 </html>

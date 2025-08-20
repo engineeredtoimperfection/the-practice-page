@@ -3,7 +3,7 @@ loadConfig()
 showWelcomeMessage()
 
 function loadConfig() {
-    fetch('./config.json')
+    fetch('../../config.json')
     .then(res => res.json())
     .then(config => {
 
@@ -12,7 +12,7 @@ function loadConfig() {
         const totalHours = document.getElementById('total-hours')
         const lastUpdated = document.getElementById('last-updated')
 
-        const log = config.log
+        const log = config.guitar.log
 
         play.textContent = log.play_activity
         practice.textContent = log.practice_activity
@@ -20,7 +20,7 @@ function loadConfig() {
         lastUpdated.textContent = `Last updated: ${log.last_updated}`
 
         if (detectPersonalMode()) {
-            enablePersonalMode(config.links)
+            enablePersonalMode(config.guitar.links)
         }
 
     })
