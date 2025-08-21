@@ -10,7 +10,6 @@ html {
 
 body {
     height: 100vh;
-    padding: 100px 0;
     
     display: flex;
     justify-content: center;
@@ -32,6 +31,17 @@ body {
 .grid-item:hover {
     transform: scale(1.03);
     cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        padding: 15vh 0;
+    }
+
+    .grid {
+        transform: scale(0.9);
+        gap: 20px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
