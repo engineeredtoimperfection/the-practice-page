@@ -1,6 +1,10 @@
 const isPersonalModeOn = detectPersonalMode()
 setLinks(isPersonalModeOn)
 
+const itemInFocus = getInFocusToday()
+
+showWelcomeMessage(itemInFocus)
+
 function detectPersonalMode() {
     return window.location.hash === '#me'
 }
@@ -25,4 +29,28 @@ function setLinks(isPersonalModeOn) {
     musicianshipTile.addEventListener('click', () => {
         window.open(musicianshipLink)
     })
+}
+
+function getInFocusToday() {
+
+    // Weekly rotation order
+    const focusRotation = [
+        { emoji: '🎸', label: 'Guitar' },
+        { emoji: '🎤', label: 'Vocals' },
+        { emoji: '🎧', label: 'Musicianship' },
+        { emoji: '🎸', label: 'Guitar' },
+        { emoji: '🎤', label: 'Vocals' },
+        { emoji: '🎧', label: 'Musicianship' },
+        { emoji: '🎸', label: 'Guitar' }
+    ];
+
+    const today = new Date().getDay()
+
+    return focusRotation[today]
+}
+
+function showWelcomeMessage(itemInFocus) {
+    alert(
+        `Today is... \n\n${itemInFocus.label} ${itemInFocus.emoji} day!\n\nHave fun! ❤️`
+    )
 }
