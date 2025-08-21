@@ -15,12 +15,10 @@ body {
     align-items: center;
 
     user-select: none;
-
-    padding: 60px;
 }
 
 .title {
-    flex: 1;
+    flex: 4;
     width: 100%;
 
     display: flex;
@@ -30,7 +28,7 @@ body {
 }
 
 .grid {
-    flex: 2;
+    flex: 7;
     display: flex;
     justify-content: center;
     align-items: start;
