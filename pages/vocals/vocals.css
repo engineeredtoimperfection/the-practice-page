@@ -61,6 +61,28 @@ progress {
     text-align: center;
 }
 
+.container a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #3a2e2b;
+    color: white;
+}
+
+.container a:hover {
+    padding: 15px;
+}
+
+.header-list-container {
+    width: 100%;
+}
+
+.header-list-container ul {
+    list-style: none;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .activity-container {
     display: flex;
 
