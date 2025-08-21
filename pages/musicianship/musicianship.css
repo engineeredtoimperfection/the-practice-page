@@ -16,7 +16,7 @@ body {
 
     user-select: none;
 
-    padding: 80px;
+    padding: 60px;
 }
 
 .title {
@@ -34,11 +34,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: start;
-    gap: 12px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
 .grid-item:hover {
     transform: scale(1.03);
     cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+
+    body {
+        padding: 100px 60px;
+    }
+
+    .title {
+        margin: 50px;
+    }
+
+    .grid {
+        gap: 25px;
+    }
 }
