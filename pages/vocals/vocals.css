@@ -61,17 +61,6 @@ progress {
     text-align: center;
 }
 
-.container a {
-    text-decoration: none;
-    padding: 10px;
-    background-color: #3a2e2b;
-    color: white;
-}
-
-.container a:hover {
-    padding: 15px;
-}
-
 .header-list-container {
     width: 100%;
 }
@@ -122,6 +111,17 @@ progress {
 
 .more-link-container a {
     color: #3a2e2b;
+}
+
+.clickable {
+    padding: 10px;
+    background-color: #3a2e2b;
+    color: white;
+    cursor: pointer;
+}
+
+.clickable:hover {
+    transform: scale(1.1);
 }
 
 @keyframes fade-in {

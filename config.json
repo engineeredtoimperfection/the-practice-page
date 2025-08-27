@@ -26,12 +26,48 @@
             "play_activity": "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜🔥🔥🧊🔥🧊🔥🧊🔥🔥🧊🧊🔥🔥🔥🧊🔥🔥🧊🔥🔥🔥🔥🔥🔥🧊🧊🧊🧊🔥🧊🔥🔥🧊🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🧊🧊🔥🔥🧊🔥🔥🔥🔥🧊",
             "practice_activity": "🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🧊🔥🧊🔥🧊🔥🔥🔥🔥🧊🔥🔥🧊🔥🔥🔥🔥🔥🧊🔥🧊🔥🧊🧊🔥⬜🧊🧊🧊🧊🧊🧊🧊🔥🧊🧊🔥🧊🧊🧊🧊🧊🧊🔥🔥🔥🧊⬜🧊🧊🧊🧊🧊🧊🧊🧊👍🧊🧊🧊🧊🧊🔥🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊👍🔥🧊",
             "last_updated": "August 26 2025"
+        },
+        "links": {
+            "alankaar": {
+                "personal": "https://www.notion.so/advitiay-anand/Alankaar-25651c1d0d9c809e8921e4aa3d412ae8",
+                "public": "https://advitiay-anand.notion.site/Alankaar-25651c1d0d9c809e8921e4aa3d412ae8"
+            },
+            "karaoke": {
+                "personal": "https://www.notion.so/advitiay-anand/Karaoke-25651c1d0d9c80c8af50dd113a1bf12f",
+                "public": "https://advitiay-anand.notion.site/Karaoke-25651c1d0d9c80c8af50dd113a1bf12f"
+            },
+            "logs": {
+                "personal": "https://www.notion.so/advitiay-anand/Vocals-Log-25651c1d0d9c805da278d72f6445e313",
+                "public": "https://advitiay-anand.notion.site/Vocals-Log-25651c1d0d9c805da278d72f6445e313"
+            }
         }
     },
     "musicianship": {
         "log": {
             "practice_activity": "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜🧊🧊🔥🧊🧊🧊👍",
             "last_updated": "August 26 2025"
+        },
+        "links": {
+            "ear-training": {
+                "personal": "https://www.notion.so/advitiay-anand/Ear-Training-21a51c1d0d9c803883d2ec5c9f48b490",
+                "public": "https://advitiay-anand.notion.site/Ear-Training-21a51c1d0d9c803883d2ec5c9f48b490"
+            },
+            "music-theory": {
+                "personal": "https://www.notion.so/advitiay-anand/Music-Theory-21a51c1d0d9c8044a646ee81d6d4e84f",
+                "public": "https://advitiay-anand.notion.site/Music-Theory-21a51c1d0d9c8044a646ee81d6d4e84f"
+            },
+            "songwriting": {
+                "personal": "https://www.notion.so/advitiay-anand/Songwriting-13d51c1d0d9c80f793b0ed930a3a3bb6",
+                "public": "https://advitiay-anand.notion.site/Songwriting-13d51c1d0d9c80f793b0ed930a3a3bb6"
+            },
+            "deep-listening": {
+                "personal": "https://www.notion.so/advitiay-anand/Deep-Listening-23e51c1d0d9c800685a9c91b6f8b7b0e",
+                "public": "https://advitiay-anand.notion.site/Deep-Listening-23e51c1d0d9c800685a9c91b6f8b7b0e"
+            },
+            "logs": {
+                "personal": "https://www.notion.so/advitiay-anand/Musicianship-Logs-25651c1d0d9c80389fe2fa6439e848b8",
+                "public": "https://advitiay-anand.notion.site/Musicianship-Logs-25651c1d0d9c80389fe2fa6439e848b8"
+            }
         }
     }
 }
